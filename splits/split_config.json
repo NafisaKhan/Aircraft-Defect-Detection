@@ -1,0 +1,43 @@
+{
+  "created": "2026-09-20T14:42:37",
+  "seed": 42,
+  "n_folds": 5,
+  "val_splits": 7,
+  "group_regex": "^(\\d+)_(\\d+)_JPG",
+  "merge_near_duplicates": true,
+  "dhash_max_dist": 1,
+  "classes": [
+    "Corrosion",
+    "Crack",
+    "Dent",
+    "Missing Head",
+    "Paint Off",
+    "Scratch"
+  ],
+  "label2id": {
+    "Corrosion": 0,
+    "Crack": 1,
+    "Dent": 2,
+    "Missing Head": 3,
+    "Paint Off": 4,
+    "Scratch": 5
+  },
+  "n_files": 2647,
+  "n_groups": 652,
+  "files_per_class": {
+    "Crack": 1219,
+    "Dent": 681,
+    "Paint Off": 296,
+    "Missing Head": 244,
+    "Scratch": 131,
+    "Corrosion": 76
+  },
+  "groups_per_class": {
+    "Corrosion": 17,
+    "Crack": 209,
+    "Dent": 181,
+    "Missing Head": 188,
+    "Paint Off": 72,
+    "Scratch": 29
+  }
+}
